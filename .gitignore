@@ -1,0 +1,25 @@
+# Python byte-compiled / optimised / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test artefacts
+.pytest_cache/
+
+# Saved RAG indexes (generated at runtime)
+*.json
+
+# OS files
+.DS_Store
+Thumbs.db
