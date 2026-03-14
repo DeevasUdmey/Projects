@@ -1,0 +1,17 @@
+# PDF RAG Pipeline — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# PDF text and table extraction
+pdfplumber>=0.10.0
+
+# PDF image extraction
+pymupdf>=1.23.0
+
+# Image handling
+Pillow>=10.0.0
+
+# Gemini SDK (Embedding + Generation)
+google-genai>=0.8.0
+
+# Numerical operations (cosine similarity)
+numpy>=1.24.0
